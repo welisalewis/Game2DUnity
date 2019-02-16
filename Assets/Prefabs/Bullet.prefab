@@ -75,7 +75,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   lifeTime: 1.5
-  destroyEffect: {fileID: 0}
+  destroyEffect: {fileID: 1285388119127328, guid: 1b1df6712ba9cd3458f4dbc578c031d5,
+    type: 2}
 --- !u!212 &212792531959622092
 SpriteRenderer:
   m_ObjectHideFlags: 1
