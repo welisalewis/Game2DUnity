@@ -70,11 +70,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1312002790724042}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 142575f2d387e024f96d3a03542c81e2, type: 3}
+  m_Script: {fileID: 11500000, guid: 08898aa73f315874bbea648bf8ecc770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
   lifeTime: 1.5
+  distance: 0.5
+  Solid:
+    serializedVersion: 2
+    m_Bits: 256
   destroyEffect: {fileID: 1285388119127328, guid: 1b1df6712ba9cd3458f4dbc578c031d5,
     type: 2}
 --- !u!212 &212792531959622092

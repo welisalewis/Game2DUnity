@@ -16,6 +16,7 @@ public class deployenemies : MonoBehaviour {
 	private void spawnEnemy(){
 		GameObject e = Instantiate(EnemyPrefab) as GameObject;
 		e.transform.position = new Vector2(screenBounds.y,Random.Range(-screenBounds.x, screenBounds.x));
+		
     }
 
 	IEnumerator EnemyWave(){
@@ -25,7 +26,5 @@ public class deployenemies : MonoBehaviour {
 		}
 	}
 	// Update is called once per frame
-	void Update () {
-		
-	}
+	
 }
