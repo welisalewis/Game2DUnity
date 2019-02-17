@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Project : MonoBehaviour {
+public class Projectile : MonoBehaviour {
 
 	public float speed; //speed of moving forward
 	public float lifeTime; //Lifetime of the projectile
