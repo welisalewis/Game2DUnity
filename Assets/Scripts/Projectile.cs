@@ -10,6 +10,7 @@ public class Projectile : MonoBehaviour {
 	public LayerMask Solid;
 
     public GameObject destroyEffect;
+	public int damage;
 
 	private void start(){
 
@@ -22,6 +23,7 @@ public class Projectile : MonoBehaviour {
 		if (hitInfo.collider != null){
 			 if(hitInfo.collider.CompareTag("Enemy")){
 				 Debug.Log("Enemy must die!!");
+				 hitInfo.collider.GetComponent<enemy>().TakeDamage(damage);
 			 }
 			 DestroyProjectile(); //destroy bullet after attacking
 		}

@@ -81,6 +81,7 @@ MonoBehaviour:
     m_Bits: 256
   destroyEffect: {fileID: 1285388119127328, guid: 1b1df6712ba9cd3458f4dbc578c031d5,
     type: 2}
+  damage: 1
 --- !u!212 &212792531959622092
 SpriteRenderer:
   m_ObjectHideFlags: 1

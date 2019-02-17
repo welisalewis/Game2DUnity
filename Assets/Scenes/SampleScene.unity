@@ -418,6 +418,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  health: 1
+  deathEffect: {fileID: 1882387305927004, guid: ec2aa738b02c09f4c9a37c91ce6932a9,
+    type: 2}
 --- !u!50 &762057169
 Rigidbody2D:
   serializedVersion: 4
@@ -608,7 +611,7 @@ MonoBehaviour:
   OnlyEnemies:
     serializedVersion: 2
     m_Bits: 0
-  damage: 0
+  damage: 1
 --- !u!1 &1804897615
 GameObject:
   m_ObjectHideFlags: 0
